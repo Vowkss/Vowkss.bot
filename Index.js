@@ -1,11 +1,12 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
+const token = process.env.NTEzNzc4MTMzNjQwNTQ0Mjk2.DudmWg.2KNSKDc_ZaGBR05ZRAMhzvH6Irg;
 
 bot.on('ready', function () {
   console.log("Je suis connecté !")
 })
 
-bot.login('NTEzNzc4MTMzNjQwNTQ0Mjk2.DteCuw.hWsAf9HGD-PQUvRZf70wS8PIU10')
+bot.login('NTEzNzc4MTMzNjQwNTQ0Mjk2.DudmWg.2KNSKDc_ZaGBR05ZRAMhzvH6Irg')
 
 bot.on('message', message => {
   if (message.content === 'Bonjour') {
