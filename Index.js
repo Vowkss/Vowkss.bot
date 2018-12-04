@@ -1,12 +1,11 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-const token = process.
 
 bot.on('ready', function () {
   console.log("Je suis connecté !")
 })
 
-bot.login = process.env.token
+bot.login = (process.env.token);
 
 bot.on('message', message => {
   if (message.content === 'Bonjour') {
